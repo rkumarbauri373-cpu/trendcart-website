@@ -1,1 +1,0 @@
-# trendcart-website
