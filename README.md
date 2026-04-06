@@ -56,4 +56,4 @@ h2 {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-}
+}<img src="trending-clothing.png" alt="Trending Clothing" class="product-image">
