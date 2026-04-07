@@ -1,66 +1,47 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendCart - Premium T-Shirt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header {
-    background: black;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+<header>
+    <h1>TrendCart Clothing</h1>
+</header>
 
-#hero {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
+<section id="hero">
+    <h2>Premium Oversized T-Shirt for Men</h2>
+    <p>Comfort • Style • Quality</p>
+</section>
 
-#products {
-    padding: 20px;
-}
+<section id="product-section">
+    <div class="product-card">
+        <img src="trending-clothing.png" alt="Trending T-Shirt" class="product-image">
 
-h2 {
-    text-align: center;
-}
+        <h3>Trending T-Shirt for Men</h3>
 
-.product-card {
-    background: white;
-    width: 260px;
-    padding: 15px;
-    margin: 15px auto;
-    border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    text-align: center;
-}
+        <ul class="description">
+            <li>✔ Premium Cotton Fabric</li>
+            <li>✔ Oversized Comfort Fit</li>
+            <li>✔ Stylish Daily Wear</li>
+            <li>✔ High-Quality Print</li>
+        </ul>
 
-.placeholder-image {
-    width: 100%;
-    height: 220px;
-    background: #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #555;
-    font-size: 18px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
+        <p class="price">₹459</p>
 
-.price {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px 0;
-}
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyourGoogleFormsID/viewform?usp=pp_url&amp;entry.12345=T-Shirt+Order" 
+           class="buy-btn" target="_blank">
+           Order Now
+        </a>
+    </div>
+</section>
 
-.buy-btn {
-    background: black;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
+<footer>
+    <p>© 2026 TrendCart Clothing • All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
