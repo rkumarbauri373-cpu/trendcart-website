@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TrendCart - Premium Clothing</title>
-  <style>
-    body { margin:0; font-family:Arial; background:white; }
-    header { padding:20px; text-align:center; font-size:28px; font-weight:bold; }
-    .hero { padding:60px 20px; text-align:center; }
-    .products { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; padding:20px; }
-    .card { border:1px solid #ddd; border-radius:10px; overflow:hidden; padding-bottom:15px; }
-    .card img { width:100%; height:320px; object-fit:cover; }
-    .card h3 { padding:10px; font-size:20px; }
-    .card button { margin:10px; padding:10px 20px; border:none; border-radius:5px; background:black; color:white; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendCart - Premium T-Shirt</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>TrendCart</header>
-<section class="hero"><h2>Premium Trendy Clothing For You</h2></section>
-<section class="products">
-  <div class="card">
-    <img src="photo1.jpg" />
-    <h3>Oversized Blue Tee</h3>
-    <button>Order Now</button>
-  </div>
-  <div class="card">
-    <img src="photo2.jpg" />
-    <h3>Pink Stripe Shirt</h3>
-    <button>Order Now</button>
-  </div>
-  <div class="card">
-    <img src="photo3.jpg" />
-    <h3>Red Splash Jacket</h3>
-    <button>Order Now</button>
-  </div>
-  <div class="card">
-    <img src="photo4.jpg" />
-    <h3>Black Street Jacket</h3>
-    <button>Order Now</button>
-  </div>
+
+<header>
+    <h1>TrendCart Clothing</h1>
+</header>
+
+<section id="hero">
+    <h2>Premium Oversized T-Shirt for Men</h2>
+    <p>Comfort • Style • Quality</p>
 </section>
+
+<section id="product-section">
+    <div class="product-card">
+        <img src="trending-clothing.png" alt="Trending T-Shirt" class="product-image">
+
+        <h3>Trending T-Shirt for Men</h3>
+
+        <ul class="description">
+            <li>✔ Premium Cotton Fabric</li>
+            <li>✔ Oversized Comfort Fit</li>
+            <li>✔ Stylish Daily Wear</li>
+            <li>✔ High-Quality Print</li>
+        </ul>
+
+        <p class="price">₹459</p>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyourGoogleFormsID/viewform?usp=pp_url&amp;entry.12345=T-Shirt+Order" 
+           class="buy-btn" target="_blank">
+           Order Now
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 TrendCart Clothing • All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
